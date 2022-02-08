@@ -50,7 +50,7 @@ export class RobotEmotion extends LitElement {
 
   render() {
     return html`
-    <div id="happy">
+    <div id="happy" hidden>
       <svg width="40" height="40" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M15.1604 0.0306702H4.83963C2.18372 0.0306702 0.0306702 2.18371 0.0306702 4.83963V15.1604C0.0306702 17.8163 2.18372 19.9693 4.83963 19.9693H15.1604C17.8163 19.9693 19.9693 17.8163 19.9693 15.1604V4.83963C19.9693 2.18371 17.8163 0.0306702 15.1604 0.0306702Z"

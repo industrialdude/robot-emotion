@@ -17,7 +17,9 @@
 
     render(
       html`
-      <robot-emotion emotion=${"happy"}></robot-emotion>
+      <robot-emotion emotion=${"happy"}></robot-emotion>     
+      <robot-emotion emotion=${"angry"}></robot-emotion>     
+      <robot-emotion emotion=${"sad"} matchingblink=${"blinklow"} ></robot-emotion>     
       `,
       document.querySelector('#demo')
     );
